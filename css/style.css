@@ -1,7 +1,48 @@
+:root {
+  --primary-font: "Roboto Condensed", sans-serif;
+  --secondary-font: "Playfair display, serif";
+  --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  --opacity: 90%;
+}
+
 body {
-  font-family: "Playfair display, serif";
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
 }
 
 h1 {
+  font-family: var(--secondary-font);
+  font-size: 88px;
   font-weight: 700;
+}
+
+h2,
+h3 {
+  font-family: var(--primary-font);
+  font-size: 36px;
+  opacity: var(--opacity);
+}
+
+.introduction-container {
+  text-align: center;
+  padding: 160px 0;
+  border: 5px solid black;
+  border-radius: 4px;
+  margin: 30px;
+}
+
+.btn {
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  background: none;
+  box-shadow: var(--box-shadow);
+  border: 2px solid;
 }
