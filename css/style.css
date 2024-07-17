@@ -42,21 +42,28 @@ h3 {
   margin: 30px;
 }
 
-.about-me-header {
+.header-container {
   padding: 160px 30px;
   border: 5px solid black;
   border-radius: 4px;
   margin: 30px;
 }
 
-.about-me-header h1 {
+.header-container h1 {
   font-size: 50px;
   font-family: var(--secondary-font);
   font-weight: 600;
 }
 
-.about-me-header h2 {
+.header-container h2 {
   font-size: 25px;
+}
+
+.work-header {
+  padding: 160px 0;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 50px;
 }
 
 .btn {
