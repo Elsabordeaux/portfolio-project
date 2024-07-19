@@ -15,6 +15,46 @@ body {
   );
 }
 
+nav {
+  border: 5px solid black;
+  border-radius: 4px;
+  width: 120%;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: 20px;
+  padding: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  opacity: var(var(--opacity));
+}
+
+nav a:hover {
+  opacity: 70%;
+  transition: all 100ms ease-in-out;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li.active a {
+  font-weight: 700;
+}
+
+.navbar {
+  margin: 30px;
+}
+
 .introduction-container h1 {
   font-family: var(--secondary-font);
   font-size: 88px;
@@ -120,5 +160,11 @@ img {
   .btn {
     padding: 5px;
     font-size: 12px;
+  }
+
+  nav li {
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
   }
 }
