@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  border: 5px solid black;
+  border: 3px solid black;
   border-radius: 4px;
   width: 120%;
   text-align: center;
@@ -160,6 +160,7 @@ img {
   .btn {
     padding: 5px;
     font-size: 12px;
+    margin: 15px;
   }
 
   nav li {
@@ -167,4 +168,56 @@ img {
     padding: 0;
     text-align: center;
   }
+
+  i {
+    font-size: 10px;
+  }
+}
+
+.work-contact {
+  margin: 50px;
+  text-align: center;
+}
+
+.work-contact h4 {
+  font-size: 38px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+}
+
+.work-contact p {
+  font-size: 20px;
+  margin: 0;
+}
+footer {
+  text-align: center;
+  font-size: 24px;
+}
+
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer .social-media-links {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+i {
+  padding: 10px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+footer a:hover {
+  opacity: 70%;
+  transition: all 100ms ease-in-out;
+}
+
+footer i:hover {
+  background-color: black;
+  color: white;
 }
