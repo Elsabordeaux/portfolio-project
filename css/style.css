@@ -186,32 +186,50 @@ footer i:hover {
 }
 
 @media (max-width: 576px) {
-  h1 {
+  .introduction-container h1 {
     font-size: 38px;
   }
-  h2,
+  .introduction-container h2,
   h3 {
     font-size: 25px;
   }
-  .homepage-title {
+
+  p {
+    font-size: 15px;
+  }
+
+  p.homepage-title {
+    font-size: 15px;
+  }
+
+  .enquiries h4 {
     font-size: 25px;
   }
+
+  .enquiries p {
+    font-size: 15px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
   .introduction-container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  .about-me-header {
+  .header-container {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
   }
 
-  .about-me-header h1 {
-    font-size: 35px;
+  h1.header-container {
+    font-size: 15px;
   }
 
-  .about-me-header h2 {
+  .header-container h2 {
     font-size: 18px;
   }
 
@@ -221,8 +239,12 @@ footer i:hover {
     margin: 15px;
   }
 
-  nav li {
-    font-size: 14px;
+  img {
+    width: 300px;
+  }
+
+  .navbar li {
+    font-size: 12px;
     padding: 0;
     text-align: center;
   }
