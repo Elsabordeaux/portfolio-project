@@ -32,15 +32,21 @@
       crossorigin="anonymous"
     ></script>
     <title>About Alana Jackson-hobbies & interests</title>
+    <meta
+      name="description"
+      content="About student front-end developer Alana Jackson"
+    />
   </head>
   <body>
     <div class="navbar">
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Alana">About</a>
+          </li>
+          <li><a href="/work.html" title="Alana's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Alana">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +63,9 @@
               been really interesting and I have been suprised by how much I
               have enjoyed this completely alien concept!
             </p>
-            <a href="#" class="btn btn-secondary">See my projects</a>
+            <a href="/work.html" title="Alana's work" class="btn btn-secondary"
+              >See my projects</a
+            >
           </div>
         </div>
 
@@ -71,5 +79,65 @@
         </div>
       </div>
     </div>
+    <div class="work-contact d-block d-md-flex justify-content-evenly">
+      <div>
+        <h4>Work Enquiries</h4>
+        <p>Let's work together</p>
+      </div>
+      <div>
+        <a
+          href="/contact.html"
+          title="Contact me"
+          class="btn btn-secondary work-enquiry mt-3"
+          >Contact me</a
+        >
+      </div>
+    </div>
+    <footer>
+      <a
+        href="mailto:snowpaws85@gmail.com"
+        class="email-link"
+        title="email Alana"
+        >snowpaws85@gmail.com</a
+      >
+      <div class="social-media-links mt-4">
+        <a
+          href="https://www.linkedin.com/in/alana-jackson-4677912b2"
+          target="_blank"
+          title="Alana's Linked in profile"
+        >
+          <i class="fa-brands fa-linkedin-in me-3"></i
+        ></a>
+        <a
+          href="https://github.com/Elsabordeaux"
+          target="_blank"
+          title="Alana's Github profile"
+          ><i class="fa-brands fa-github me-3"></i
+        ></a>
+        <a
+          href="https://instagram.com/Elsabordeaux"
+          target="_blank"
+          title="Alana's Instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <p class="text-center mb-5">
+        This project was coded by
+        <a
+          href="https://github.com/Elsabordeaux"
+          title="Alana's github profile"
+          target="_blank"
+          class="coded-by-link"
+          >Alana </a
+        >❤️ and is
+        <a
+          href="https://github.com/Elsabordeaux/portfolio-project"
+          title="Github project"
+          target="_blank"
+          class="coded-by-link"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
